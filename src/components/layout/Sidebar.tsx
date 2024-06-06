@@ -1,13 +1,13 @@
-
 import { Link } from "react-router-dom";
+import "./Sidebar.css";
 
-function Nav() {
+function Sidebar() {
   return (
-    <nav>
+    <nav className="Sidebar">
       <Link to="">Home</Link>&nbsp;
       <Link to="about">About</Link>&nbsp;
     </nav>
   );
 }
 
-export default Nav;
+export default Sidebar;
