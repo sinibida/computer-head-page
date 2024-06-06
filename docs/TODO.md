@@ -1,0 +1,4 @@
+- [x] launch minimal website with vite
+- [ ] Make first post
+- [ ] post editor
+- [ ] sharing, rss, etc.
