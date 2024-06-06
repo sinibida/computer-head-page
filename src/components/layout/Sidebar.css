@@ -1,0 +1,5 @@
+.Sidebar {
+    background: var(--bg-secondary);
+    padding: 16px;
+    padding-bottom: 64px;
+}

@@ -1,8 +1,30 @@
 .Header {
-    background: var(--fg-primary);
     color: var(--text-primary);
+    width: 100%;
+    position: relative;
 
-    h1 {
-        margin: 0;
+    img {
+        position: absolute;
+        transform-origin: 0 0;
+        transform: rotate(15.8deg) scale(0.72234042553) translate(36px, -8px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .Header {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    
+        img {
+            position: initial;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            transform-origin: 50% 50%;
+            transform: rotate(4deg);
+        }
     }
 }

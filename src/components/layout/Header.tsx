@@ -1,9 +1,10 @@
+import { getPublicURL } from "../../utils";
 import "./Header.css";
 
 function Header() {
   return (
     <header className="Header">
-      <h1>Header</h1>
+      <img src={getPublicURL("BlogTitleHero.svg")} />
     </header>
   );
 }
