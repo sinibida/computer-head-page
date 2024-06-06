@@ -1,0 +1,8 @@
+.Header {
+    background: var(--fg-primary);
+    color: var(--text-primary);
+
+    h1 {
+        margin: 0;
+    }
+}

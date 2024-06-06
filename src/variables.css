@@ -1,0 +1,15 @@
+html {
+    --p1: #211951;
+    --p2: #836FFF;
+    --p3: #15F5BA;
+    --p4: #F0F3FF;
+
+    --bg-primary: #F0F3FF;
+    --bg-secondary: #DBDDED;
+    --bg-tetriary: #C6C7DC;
+
+    --fg-primary: #211951;
+
+    --text-default: #353535;
+    --text-primary: #F7F7F7;
+}

@@ -1,0 +1,11 @@
+.Footer {
+    background: var(--fg-primary);
+    color: var(--text-primary);
+
+    text-align: center;
+    padding: 16px;
+
+    h1 {
+        margin: 0;
+    }
+}
