@@ -32,7 +32,7 @@ COPY --from=builder /app/dist /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose the port that the application will run on
-EXPOSE 80
+EXPOSE ${PORT}
 
 # Start the application
 # daemon off -> foreground running
